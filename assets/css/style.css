@@ -643,7 +643,7 @@
 /* public template page */
 
 .img-new-logo {
-  width: 125px;
+  width: 125px !important;
 }
 
 .backup-public-template {
@@ -784,5 +784,21 @@
       text-align: left !important;
   }
 }
-
+@media(max-width:2560px) {
+  .set-ml-public-template {
+    margin-left: 42rem !important;
+    margin-top: 18rem !important;
+}
+}
+@media(max-width:1540px) {
+  .set-ml-public-template {
+    margin-left: 7rem !important;
+    margin-top: 3rem !important;
+}
+}
+@media(max-width:1024px) {
+  .set-ml-public-template {
+      margin-left: 0 !important;
+  }
+}
 /* public template page */
