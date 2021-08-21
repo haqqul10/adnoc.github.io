@@ -626,6 +626,8 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row-reverse !important;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .bottom .pagination .paginate_button {
   margin-right: 10px;
@@ -635,7 +637,12 @@
   background-color: transparent;
   color: #1859a9;
 }
-
+.w27-percent {
+  width: 27% !important;
+}
+.w15-percent {
+  width: 15% !important;
+}
 /*# sourceMappingURL=style.css.map */
 
 
