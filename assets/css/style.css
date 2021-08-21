@@ -854,3 +854,10 @@ tbody {
   pointer-events: none;
   color: #59739C;
 }
+
+.set-bg-table {
+  background-image: url(../img/elipse-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
