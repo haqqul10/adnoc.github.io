@@ -820,24 +820,27 @@ tbody {
 }
 .success-tabel-btn {
   background: rgba(1, 197, 186, 0.14);
-  padding: 10px;
+  padding:6px 10px;
   border-radius: 7px;
   color: rgba(1, 197, 186, 1);
   font-size: 12px;
+  width: 75%;
 }
 .warning-tabel-btn {
   background: rgba(255, 209, 102, 0.16);
-  padding: 10px;
+  padding: 6px 10px;
   border-radius: 7px;
   color: #EEA805;
   font-size: 12px;
+  width: 75%;
 }
 .rejected-tabel-btn {
   background: rgba(239, 70, 111, 0.14);
-  padding: 10px;
+  padding:6px 10px;
   border-radius: 7px;
   color: #EF466F;
   font-size: 12px;
+  width: 75%;
 }
 .details-table-button , .details-table-button:hover, .details-table-button:active,.details-table-button:focus {
   border: 2px solid #3074C6;
