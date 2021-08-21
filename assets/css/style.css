@@ -802,3 +802,55 @@
   }
 }
 /* public template page */
+
+/* tbody */
+tbody {
+  color: #535353 !important;
+}
+.main_member .member_content .table-striped tr td p {
+  color: #535353 !important;
+  margin-bottom: 0;
+}
+.success-tabel-btn {
+  background: rgba(1, 197, 186, 0.14);
+  padding: 10px;
+  border-radius: 7px;
+  color: rgba(1, 197, 186, 1);
+}
+.warning-tabel-btn {
+  background: rgba(255, 209, 102, 0.16);
+  padding: 10px;
+  border-radius: 7px;
+  color: #EEA805;
+}
+.rejected-tabel-btn {
+  background: rgba(239, 70, 111, 0.14);
+  padding: 10px;
+  border-radius: 7px;
+  color: #EF466F;
+}
+.details-table-button , .details-table-button:hover, .details-table-button:active,.details-table-button:focus {
+  border: 2px solid #3074C6;
+    color: #3074C6 !important;
+    background-color: transparent !important;
+}
+.text-total-count-table {
+  color: #1F3456 !important;
+  font-size: 18px;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #59739C;
+}
