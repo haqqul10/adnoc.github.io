@@ -883,3 +883,14 @@ tbody {
   padding-top: 30px !important;
 }
 }
+.page-item.disabled .page-link {
+  border: 1.5px solid #E6EBF5;
+}
+.page-item:first-child .page-link {
+  border-radius: 0.25rem;
+  color: #000 !important;
+}
+.page-item:last-child .page-link {
+  border-radius: 0.25rem;
+  color: #000 !important;
+}
