@@ -791,16 +791,35 @@
       text-align: left !important;
   }
 }
-@media(max-width:2560px) {
+@media(max-width:3000px) {
+  .set-ml-public-template {
+    margin-left: 50rem !important;
+    margin-top: 18rem !important;
+}
+}
+@media(max-width:2700px) {
   .set-ml-public-template {
     margin-left: 42rem !important;
     margin-top: 18rem !important;
+}
+}
+@media(max-width:2502px) {
+  .set-ml-public-template {
+    margin-left: 40rem !important;
+    margin-top: 10rem !important;
+}
+}
+@media(max-width:1770px) {
+  .set-ml-public-template {
+    margin-left: 14rem !important;
+    margin-top: 3rem !important;
 }
 }
 @media(max-width:1540px) {
   .set-ml-public-template {
     margin-left: 7rem !important;
     margin-top: 3rem !important;
+    background-color: green !important;
 }
 }
 @media(max-width:1024px) {
