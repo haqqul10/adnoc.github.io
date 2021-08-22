@@ -847,7 +847,7 @@ tbody {
   border-radius: 7px;
   color: rgba(1, 197, 186, 1);
   font-size: 12px;
-  width: 75%;
+  width: 100%;
 }
 .warning-tabel-btn {
   background: rgba(255, 209, 102, 0.16);
@@ -855,7 +855,7 @@ tbody {
   border-radius: 7px;
   color: #EEA805;
   font-size: 12px;
-  width: 75%;
+  width: 100%;
 }
 .rejected-tabel-btn {
   background: rgba(239, 70, 111, 0.14);
@@ -863,7 +863,7 @@ tbody {
   border-radius: 7px;
   color: #EF466F;
   font-size: 12px;
-  width: 75%;
+  width: 100%;
 }
 .details-table-button , .details-table-button:hover, .details-table-button:active,.details-table-button:focus {
   border: 2px solid #3074C6;
