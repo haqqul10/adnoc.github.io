@@ -759,7 +759,7 @@
   margin-top: 100px;
   background-image: url("../img/testing-fix-bg.png");
   background-color: #1553A0;
-  background-position-x: -45px;
+  background-position-x: -60px;
   background-repeat: no-repeat;
 }
 
@@ -1086,7 +1086,7 @@ table.dataTable>thead .sorting_desc_disabled:after {
   box-shadow: none;
 }
 .mt-sett {
-  margin-top: 4rem !important;
+  margin-top: 0 !important;
 }
 
 .settings-row-table-ex {
@@ -1157,14 +1157,35 @@ table.dataTable>thead .sorting_desc_disabled:after {
 
 @media(max-width:900px) {
   .new-font-set {
-    font-size: 23px !important;
+    font-size: 22px !important;
 }
 .sub-new-font-set , .link-text-new-font-set , .text-total-count-table {
-  font-size: 14.5px !important;
+  font-size: 13.5px !important;
 }
 .img-xs-icon-arrow {
-  height: 14.5px;
+  height: 13.5px;
 }
 }
 
+.first-number-table-exc {
+  padding-left: 35px !important;
+}
+.sub-number-table-exc {
+  padding:35px !important;
+}
+.select-padding-exc {
+  padding:0px 25px !important;
+}
+.set-exc-hero-img {
+padding:100px !important;
+padding-left: 0 !important;
+}
+
+@media(max-width:767px) {
+  .set-exc-hero-img {
+    padding-top: 3rem  !important;
+    padding-left: 0.5rem !important;
+    padding-right: 35px !important;
+}
+}
 /* ++ */
