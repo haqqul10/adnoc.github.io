@@ -867,21 +867,12 @@
 
 /* public template page */
 
-.hero__top {
-  background-color: #1553a0;
-}
-
 .backup-public-template {
-  max-width: 1440px;
   height: 623px;
-  margin-top: 104px;
+  margin-top: 107px;
   background-image: url("../img/Hero_BG.png");
-  /* background-color: #1553a0; */
+  background-color: #1553a0;
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
-  background-position: center center;
-  /* background: #1553a0 url(../img/Hero_BG.png) center center no-repeat;
-  background-size: cover; */
 }
 
 .mt-100-public-template {
