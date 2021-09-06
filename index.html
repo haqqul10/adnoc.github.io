@@ -20,6 +20,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
         rel="stylesheet">
+    <!-- datatable -->
+    <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
+    <link rel="stylesheet" href="cdn.datatables.net/1.10.24/css/dataTables.bootstrap4.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>TECH-ROAD</title>
@@ -30,38 +33,38 @@
         <div class="navbar_top d-none d-md-block">
             <ul class="nav justify-content-center">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">
-                        <i class="fas fa-check mr-1"></i>My Tasks </a>
+                    <a class="nav-link active" href="#"> <img src="./assets/img/icons/checklis.svg" alt=""> My
+                        Tasks(2)</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index2.html">
-                        <i class="fas fa-map-marker-alt mr-1"></i> Member Area </a>
+                    <a class="nav-link" href="index2.html"> <img src="./assets/img/icons/Outline.svg" alt=""> My
+                        Drafts(5) </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" tabindex="-1">
-                        <i class="fas fa-users mr-1"></i> Manage Users </a>
+                    <a class="nav-link" href="#" tabindex="-1"> <img src="./assets/img/icons/humberger.svg" alt=""> My
+                        Submissions </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" tabindex="-1">
-                        <i class="fas fa-toggle-off mr-1"></i> Manage Masters </a>
+                    <a class="nav-link" href="#" tabindex="-1"> <img src="./assets/img/icons/elektro.svg" alt=""> Manage
+                        Technologies </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" tabindex="-1">
-                        <i class="fas fa-cog mr-1"></i>Settings</a>
+                    <a class="nav-link" href="#" tabindex="-1"> <img src="./assets/img/icons/Settings.svg" alt="">
+                        Administration</a>
                 </li>
             </ul>
         </div>
         <nav class="navbar navbar-expand-lg">
             <div class="container set-mix-nav">
                 <a class="navbar-brand" href="index-2.html">
-                    <img src="assets/img/logo.png" alt="Logo" class="img-new-logo">
+                    <img src="./assets/img/icons/logo.svg" alt="Logo" class="img-new-logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <ul class="navbar-nav mx-auto">
+                    <ul class="navbar-nav">
                         <li class="nav-item active">
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
@@ -85,7 +88,7 @@
                         <div class="d-flex align-items-center justify-content-between">
                             <div class=" d-flex">
                                 <div class="img_profile mr-2">
-                                    <img src="assets/img/ava.png" alt="Profile">
+                                    <img src="assets/img/icons/profile.svg" alt="Profile">
                                 </div>
                                 <div class="title_profile">
                                     <h5>Dr.Sultan Jaber</h5>
@@ -94,7 +97,7 @@
                             </div>
                             <a class="nav_drop" href="#" id="navbarDropdownMenuLink" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fas fa-angle-down ml-2"></i>
+                                <img src="./assets/img/icons/Arro_down.svg" alt="">
                             </a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item" href="#">Action</a>
@@ -108,53 +111,200 @@
         </nav>
     </div>
 
-    <div class="hero backup-public-template">
-        <div class="container d-flex align-items-start align-items-md-center">
-            <div class="row d-flex align-content-sm-stretch">
-                <div class="col-12 col-lg-7 ">
-                    <div class="hero_content pt-5 pb-5 pr-5 mt-sett set-exc-hero-img">
-                        <h5>We’re rising to meet the energy needs of the 4th industrial age</h5>
-                        <p>Arcu magna ipsum dolor, mus. Buctor blandit malesuada bibendum eget. Nibh sed nisl in ut consectetur. Amet etiam in molestie aenean quam platea.</p>
+    <div class="hero__top">
+        <div class="hero backup-public-template">
+            <div class="container d-flex align-items-start align-items-md-center">
+                <div class="row d-flex align-content-sm-stretch">
+                    <div class="col-12 col-lg-7 ">
+                        <div class="hero_content pt-5 pb-5 pr-5  mt-sett set-exc-hero-img">
+                            <h5>Subject Matter Expert Finder</h5>
+                            <p>The first step towards effective technology scouting is to identify the technical challenges
+                                faced in order to solicit fit for purpose solutions. Here you can learn more about the
+                                challenges compiled across 12 different disciplines related to subsurface, engineering,
+                                drilling,
+                                Operations/integrity and HSE and what is the expected outcome from resolving these
+                                challenges. You can connect with the challenge owner listed if more information is required.
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-12 col-lg-5" style="right: -30px; bottom: -40px;">
+                    <div class="col-12 col-lg-5" style="right: -30px; bottom: -40px;">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <section class="container backup-box-result">
-        <div class="member_area">
-
-            <div class="row card_hero">
-                <div class="col-12 col-md-12 mx-auto p-0">
-                    <div class="card border-0 py-3 px-2 px-lg-4 new-set-box">
-                        <div class="">
-                            <div class="row card_content mt-4">
-
-                                <div class="col-12 col-lg-3 col-sm-6 mb-2">
-                                    <h5 class="new-font-set text-center">1971</h5>
-                                    <p class="sub-new-font-set text-center">Year Founded</p>
+    <section class="main_member set-bg-table">
+        <div class="container">
+            <div class="member_content pb-5 mt-5 pt-0 set-riple-member-content">
+                <div class="card border-0 mb-5">
+                    <div class="card-header bg-white">
+                        <div class="row">
+                            <div class="col-12 col-lg-6">
+                                <div class="form-group has-search">
+                                    <div class="">
+                                        <span class="far fa-search form-control-feedback"></span>
+                                        <input type="text" class="form-control" placeholder="Search Challenge">
+                                    </div>
                                 </div>
-
-
-                                <div class="col-12 col-lg-3 col-sm-6 mb-2">
-                                    <h5 class="new-font-set text-center">500.000+</h5>
-                                    <p class="sub-new-font-set text-center">Barrels per day</p>
-                                </div>
-
-
-                                <div class="col-12 col-lg-3 col-sm-6 mb-2">
-                                    <h5 class="new-font-set text-center">5+</h5>
-                                    <p class="sub-new-font-set text-center">Oil rigs operated</p>
-                                </div>
-
-
-                                <div class="col-12 col-lg-3 col-sm-6 mb-2">
-                                    <h5 class="new-font-set text-center">$ 1.2 M</h5>
-                                    <p class="sub-new-font-set text-center">Profit per year</p>
-                                </div>
-
                             </div>
+                            <div class="col-12 col-lg-6 dropdown__right">
+                                <div class="form-group">
+                                    <select class="form-control select-custom-arrow select-padding-exc"
+                                        id="exampleFormControlSelect1">
+                                        <option>All business domains</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                    </select>
+                                </div>
+                                <div class="form-group select-custom-arrow">
+                                    <select class="form-control select-custom-arrow select-padding-exc"
+                                        id="exampleFormControlSelect1">
+                                        <option>All Programs</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 no-mt-xs">
+                                <p class="text-total-count-table">Total Count</p>
+                                <h5 class="card-title">189 Technical Challenge</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body pr-0 pl-0">
+                        <div class="table-responsive">
+                            <table class="table table-striped" id="dataTable">
+                                <thead>
+                                    <tr>
+                                        <th class="first-number-table-exc">No</th>
+                                        <th>Challenge Title</th>
+                                        <th>Program</th>
+                                        <th>Status</th>
+                                        <th>Date</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    <tr>
+                                        <td class="sub-number-table-exc">1</td>
+                                        <td class="w27-percent">
+                                            <p>Innovative Approaches for Characterizing Carbonate Reservoirs from
+                                                Geophysics</p>
+                                        </td>
+                                        <td class="w15-percent">AGTC - Advanced Geophysical Technologies in Carbonates
+                                        </td>
+                                        <td><button class="btn btn-sm btn-green-50 r-100 success-tabel-btn"><i
+                                                    class="far fa-check"></i>&nbsp;Active</button></td>
+                                        <td>
+                                            <p><img src="assets/img/icons/draf.svg" alt="">&nbsp; June 24, 2021</p>
+                                            <p class="mt-2"><img src="assets/img/icons/time.svg" alt="">&nbsp; 12:30 PM
+                                            </p>
+                                        </td>
+                                        <td><button type="button"
+                                                class="btn btn-outline-primary details-table-button"><img
+                                                    src="assets/img/eyes-icon.svg" alt="">&nbsp;View Details</button>
+                                        </td>
+
+                                    </tr>
+
+                                    <tr>
+                                        <td class="sub-number-table-exc">2</td>
+                                        <td class="w27-percent">
+
+                                            <p>Monitoring flood-front and remaining oil saturation</p>
+                                        </td>
+                                        <td class="w15-percent">AGTC - Advanced Geophysical Technologies in Carbonates
+                                        </td>
+                                        <td>
+                                            <button class="btn btn-sm btn-yellow-50 r-100 warning-tabel-btn"><img
+                                                    src="assets/img/review-clock.svg" alt="">&nbsp;In Review</button>
+
+                                        </td>
+                                        <td>
+                                            <p><img src="assets/img/icons/draf.svg" alt="">&nbsp; June 24, 2021</p>
+                                            <p class="mt-2"><img src="assets/img/icons/time.svg" alt="">&nbsp; 12:30 PM
+                                            </p>
+                                        </td>
+                                        <td><button type="button"
+                                                class="btn btn-outline-primary details-table-button"><img
+                                                    src="assets/img/eyes-icon.svg" alt="">&nbsp;View Details</button>
+                                        </td>
+
+                                    </tr>
+
+                                    <tr>
+                                        <td class="sub-number-table-exc">3</td>
+                                        <td class="w27-percent">
+
+                                            <p>Seismic Acquistion in Transition Zones (TZ)</p>
+                                        </td>
+                                        <td class="w15-percent">AGTC - Advanced Geophysical Technologies in Carbonates
+                                        </td>
+                                        <td><button class="btn btn-sm btn-yellow-50 r-100 warning-tabel-btn"><img
+                                                    src="assets/img/review-clock.svg" alt="">&nbsp;In Review</button>
+                                        </td>
+                                        <td>
+                                            <p><img src="assets/img/icons/draf.svg" alt="">&nbsp; June 24, 2021</p>
+                                            <p class="mt-2"><img src="assets/img/icons/time.svg" alt="">&nbsp; 12:30 PM
+                                            </p>
+                                        </td>
+                                        <td><button type="button"
+                                                class="btn btn-outline-primary details-table-button"><img
+                                                    src="assets/img/eyes-icon.svg" alt="">&nbsp;View Details</button>
+                                        </td>
+
+                                    </tr>
+
+                                    <tr>
+                                        <td class="sub-number-table-exc">4</td>
+                                        <td class="w27-percent">
+
+                                            <p>Enhance seismic qiality through improved acquisition and processing</p>
+                                        </td>
+                                        <td class="w15-percent">AGTC - Advanced Geophysical Technologies in Carbonates
+                                        </td>
+                                        <td><button class="btn btn-sm btn-yellow-50 r-100 rejected-tabel-btn"><img
+                                                    src="assets/img/rejected-icon.svg" alt="">&nbsp;Rejected</button>
+                                        </td>
+                                        <td>
+                                            <p><img src="assets/img/icons/draf.svg" alt="">&nbsp; June 24, 2021</p>
+                                            <p class="mt-2"><img src="assets/img/icons/time.svg" alt="">&nbsp; 12:30 PM
+                                            </p>
+                                        </td>
+                                        <td><button type="button"
+                                                class="btn btn-outline-primary details-table-button"><img
+                                                    src="assets/img/eyes-icon.svg" alt="">&nbsp;View Details</button>
+                                        </td>
+
+                                    </tr>
+
+                                    <tr>
+                                        <td class="sub-number-table-exc">5</td>
+                                        <td class="w27-percent">
+
+                                            <p>Characterization of Subtle Faults</p>
+                                        </td>
+                                        <td class="w15-percent">AGTC - Advanced Geophysical Technologies in Carbonates
+                                        </td>
+                                        <td><button class="btn btn-sm btn-yellow-50 r-100 rejected-tabel-btn"><img
+                                                    src="assets/img/rejected-icon.svg" alt="">&nbsp;Rejected</button>
+                                        </td>
+                                        <td>
+                                            <p><img src="assets/img/icons/draf.svg" alt="">&nbsp; June 24, 2021</p>
+                                            <p class="mt-2"><img src="assets/img/icons/time.svg" alt="">&nbsp; 12:30 PM
+                                            </p>
+                                        </td>
+                                        <td><button type="button"
+                                                class="btn btn-outline-primary details-table-button"><img
+                                                    src="assets/img/eyes-icon.svg" alt="">&nbsp;View Details</button>
+                                        </td>
+
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
@@ -162,51 +312,16 @@
         </div>
     </section>
 
-    <div class="container-fluid pb-5 backup-who-we-are">
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-lg-6">
-                    <p><img src="assets/img/img-who.png" class="img-fluid" alt=""></p>
-                </div>
-                <div class="col-lg-6">
-                    <h5 class="new-font-set mt-100-public-template who-text-settings">Who we are</h5>
-                    <p class="sub-new-font-set plus-sub-font">Arcu magna ipsum dolor, mus. Buctor
-                        blandit malesuada bibendum eget.
-                        Nibh sed nisl in ut consectetur. Amet etiam in molestie aenean.
-                        Gorbi eget non faucibus vel egestas purus urna in. Lobortis in gravida nullam mattis hac
-                        sollicitudin.
-                        Commodo orci vitae tristique ac. Arcu magna ipsum dolor, mus. Buctor blandit malesuada bibendum
-                        eget. Nibh sed nisl in ut consectetur. Amet etiam in molestie aenean. Gorbi eget non faucibus
-                        vel
-                        egestas purus urna in. Lobortis in gravida nullam mattis hac sollicitudin.
-                        Commodo orci vitae tristique ac. Lobortis in gravida nullam mattis hac sollicitudin. Commodo
-                        orci
-                        vitae tristique ac.
-                    </p>
-                    <p class="border-bottom-who"></p>
-
-                    <p><a href="#" class="link-text-new-font-set">Read our history</a>
-                        &nbsp;<span class="ml-3"><img src="assets/img/icon-arrow.svg" alt="" class="img-xs-icon-arrow"></span>
-                    </p>
-
-                    <p><a href="#" class="link-text-new-font-set">Take a look to our achievements</a>
-                        &nbsp;<span class="ml-3"><img src="assets/img/icon-arrow.svg" class="img-xs-icon-arrow" alt=""></span>
-                    </p>
-
-                </div>
-            </div>
-        </div>
-    </div>
-    
     <section class="footer pt-3 backup-footer-new">
         <div class="container">
 
             <div class="row footer_bottom xs-change-align-text">
                 <div class="col-12 col-md-7">
-                    <p><img src="assets/img/footer-icon.png" class="img-fluid w-50" alt=""></p>
+                    <p><img src="assets/img/footer-icon.png" class="img-fluid" alt=""></p>
                 </div>
                 <div class="col-12 col-md-5">
-                    <p class="pt-3 text-right xs-change-align-text">© 2021 ADNOC, and/or its affiliates. All rights reserved.</p>
+                    <p class="pt-3 text-right xs-change-align-text">© 2021 ADNOC, and/or its affiliates. All rights
+                        reserved.</p>
                 </div>
             </div>
         </div>
@@ -214,15 +329,37 @@
 
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
+    <!-- <script src="code.jquery.com/jquery-3.5.1.js"></script>
     <script src="cdn.jsdelivr.net/npm/bootstrap%404.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
--->
+    <script src="cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+    <script src="cdn.datatables.net/1.10.24/js/dataTables.bootstrap4.min.js"></script>
+    <script>
+        $('#dataTable').DataTable({
+            "dom": 'rt<"bottom"lp>',
+            "pagingType": "simple_numbers",
+            "lengthMenu": [5, 10, 20, 50, 100, 1000],
+            "language": {
+                "paginate": {
+                    "previous": "<img src='assets/img/icons/arrow-ios-left.svg'>",
+                    "next": "<img src='assets/img/icons/arrow-ios-right.svg'>"
+                },
+                "info": "_START_ - _END_  (_TOTAL_)",
+                "sLengthMenu": " Row per page _MENU_",
+                "infoFiltered": "(filtered from _MAX_ )",
+            }
+        });
+
+        $('select[name="dataTable_length"]').removeClass('custom-select-sm form-control-sm');
+    </script>
