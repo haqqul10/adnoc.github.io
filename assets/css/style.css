@@ -193,6 +193,23 @@
   }
 }
 
+table.dataTable > thead .sorting::after, table.dataTable > thead .sorting_asc::after{
+  background-image: url(../img/icons/arrow-down-bottom.svg);
+  background-size: 24px;
+  content: "";
+  background-position: bottom;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+table.dataTable > thead .sorting::before, table.dataTable > thead .sorting_asc::before{
+  background-image: url(../img/icons/arrow-down-top.svg);
+  background-size: 24px;
+  content: "";
+  background-position: top;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+
 .btn-green {
   background-color: #18a98f;
   color: #fff;
@@ -1187,7 +1204,7 @@ table.dataTable > thead .sorting_asc_disabled:before,
 table.dataTable > thead .sorting_desc_disabled:before {
   right: 1em;
   content: "\f0de";
-  color: #1f3456;
+  /* color: #1F3456; */
   font-family: "Font Awesome 5 Pro";
 }
 
@@ -1198,7 +1215,7 @@ table.dataTable > thead .sorting_asc_disabled:after,
 table.dataTable > thead .sorting_desc_disabled:after {
   right: 1em;
   content: "\f0dd";
-  color: #231f20;
+  /* color: #1F3456; */
   font-family: "Font Awesome 5 Pro";
 }
 
