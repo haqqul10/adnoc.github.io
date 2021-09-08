@@ -143,7 +143,8 @@
                                 <div class="form-group has-search">
                                     <div class="">
                                         <span class="far fa-search form-control-feedback"></span>
-                                        <input type="text" class="form-control" placeholder="Search Challenge">
+                                        <input type="text" id="search" class="form-control"
+                                            placeholder="Search Challenge">
                                     </div>
                                 </div>
                             </div>
@@ -346,7 +347,7 @@
     <script src="cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
     <script src="cdn.datatables.net/1.10.24/js/dataTables.bootstrap4.min.js"></script>
     <script>
-        $('#dataTable').DataTable({
+        var oTable = $('#dataTable').DataTable({
             "dom": 'rt<"bottom"lp>',
             "pagingType": "simple_numbers",
             "lengthMenu": [5, 10, 20, 50, 100, 1000],
@@ -360,6 +361,9 @@
                 "infoFiltered": "(filtered from _MAX_ )",
             }
         });
+        $('#search').keyup(function () {
+            oTable.search($(this).val()).draw();
+        })
 
         $('select[name="dataTable_length"]').removeClass('custom-select-sm form-control-sm');
     </script>
