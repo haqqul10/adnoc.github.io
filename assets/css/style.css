@@ -295,6 +295,10 @@
   }
 }
 
+body {
+  background-color: #fafbfd;
+}
+
 .btn-green {
   background-color: #18a98f;
   color: #fff;
@@ -1235,11 +1239,23 @@ tbody {
   color: #59739c;
 }
 
-.set-bg-table {
+.set-bg-table{
   background-image: url(../img/elipse-bg.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
+  /* position: relative; */
+}
+
+.bg__elipse {
+  /* background-image: url(../img/Ellipse_paragraph.png);
+  background-size: contain;
+  background-repeat: no-repeat; */
+  /* position: absolute;
+  bottom: -565px;
+  width: 2275.99px;
+  height: 969.47px;
+  left: -525.25px; */
 }
 
 @media (max-width: 770px) {

@@ -195,6 +195,10 @@
   }
 }
 
+body {
+  background-color: #fafbfd;
+}
+
 /* salary */
 .salery__content {
   background-color: white !important;
@@ -219,10 +223,26 @@
 }
 
 .who__we {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
+  overflow: hidden;
 }
 
+.who__we .container{
+  position: relative;
+}
+
+.bg__elipse {
+  /* background-image: url(../img/Ellipse_paragraph.png);
+  background-size: contain;
+  background-repeat: no-repeat; */
+  position: absolute;
+  bottom: -565px;
+  width: 2275.99px;
+  height: 969.47px;
+  left: -525.25px;
+}
 .who__we h2 {
   font-size: 40px;
   font-weight: 600;
