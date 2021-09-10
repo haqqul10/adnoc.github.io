@@ -118,11 +118,20 @@
     justify-content: flex-start;
   }
 
+  .select-padding-exc {
+    padding: 0px 14px !important;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+
   .has-search .form-control {
     width: 100%;
     padding-left: 2.375rem;
     height: 48px;
     margin-bottom: 16px;
+  }
+  .has-search .form-control::placeholder {
+    font-size: 14px;
   }
 
   .select-custom-arrow {
@@ -136,6 +145,12 @@
     margin-top: 32px;
   }
 
+  .main_member .member_content .table-striped tr td p {
+    color: #535353 !important;
+    margin-bottom: 0;
+    width: 138px;
+  }
+
   .hero {
     overflow: hidden;
     min-height: 553px !important;
@@ -145,14 +160,17 @@
   }
 
   .hero .hero_content h5 {
-    font-size: 25px !important;
-    line-height: 33px !important;
-    font-weight: 500 !important;
+    font-size: 32px !important;
+    line-height: 36px !important;
+    font-weight: 600 !important;
+    color: white;
   }
 
   .hero .hero_content p {
-    font-size: 14px !important;
-    font-weight: 300 !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: white;
+    padding-top: 16px;
   }
 
   .hero .hero_img {
@@ -199,7 +217,7 @@
   }
 
   .main_member .member_content .card .card-title {
-    font-size: 20px !important;
+    font-size: 24px !important;
     font-weight: 500;
     color: #1f3456;
   }
@@ -213,7 +231,6 @@
     background-position: bottom;
     background-repeat: no-repeat;
     opacity: 1;
-    margin-right: 16px;
   }
   table.dataTable > thead .sorting::before,
   table.dataTable > thead .sorting_asc::before {
@@ -223,7 +240,6 @@
     background-position: top;
     background-repeat: no-repeat;
     opacity: 1;
-    margin-right: 16px;
   }
   .member_content .card .card-header {
     padding: 32px;
@@ -285,6 +301,32 @@
     position: absolute;
     left: 0;
   }
+
+  .hero .hero_content h5 {
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 67.2px;
+    color: #fff;
+  }
+
+  .hero .hero_content p {
+    margin-top: 16px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+  }
+
+  .select-padding-exc {
+    padding: 0px 14px !important;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  .main_member .member_content .table-striped tr td p {
+    color: #535353 !important;
+    margin-bottom: 0;
+    width: auto;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -297,6 +339,14 @@
 
 body {
   background-color: #fafbfd;
+}
+
+.bg__elipse {
+  position: absolute;
+  bottom: -323px;
+  width: 2276px;
+  height: 980px;
+  left: -525.25px;
 }
 
 .btn-green {
@@ -566,21 +616,6 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
-}
-
-.hero .hero_content h5 {
-  font-size: 56px;
-  font-weight: 600;
-  line-height: 67.2px;
-  color: #fff;
-}
-
-.hero .hero_content p {
-  margin-top: 16px;
-  color: #fff;
-  font-size: 16px;
-  line-height: 27px;
-  font-weight: 400;
 }
 
 .hero .hero_img {
@@ -869,13 +904,13 @@ body {
 }
 
 .main_member {
-  background-image: url("../img/icon/bg_member_area.png");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
   margin-top: -90px;
   z-index: -2;
   min-height: 1182px;
   margin-top: -250px;
+  position: relative;
+  overflow: hidden;
+  z-index: 5;
 }
 
 .settings-row-xs-table {
@@ -884,6 +919,7 @@ body {
 
 .main_member .member_content {
   padding-top: 200px;
+  position: relative;
 }
 
 .main_member .member_content .card .card-header {
@@ -949,7 +985,9 @@ body {
 .bottom .pagination .paginate_button.active a {
   border: none;
   background-color: transparent;
-  color: #1859a9;
+  color: #1859a9 !important;
+  font-size: 16px;
+  padding-top: 6px;
 }
 
 .w27-percent {
@@ -1162,14 +1200,10 @@ tbody {
   color: #535353 !important;
 }
 
-.main_member .member_content .table-striped tr td p {
-  color: #535353 !important;
-  margin-bottom: 0;
-}
-
 .success-tabel-btn {
   background: rgba(1, 197, 186, 0.14);
-  padding: 4px 22px;
+  /* padding: 4px 22px; */
+  width: 98px;
   border-radius: 7px;
   color: rgba(1, 197, 186, 1);
   font-size: 14px;
@@ -1179,22 +1213,24 @@ tbody {
 
 .warning-tabel-btn {
   background: rgba(255, 209, 102, 0.16);
-  padding: 4px 8px;
+  /* padding: 4px 8px; */
   border-radius: 7px;
   color: #eea805;
   font-size: 14px;
   /* width: 100%; */
   font-weight: 500;
+  width: 108px;
 }
 
 .rejected-tabel-btn {
   background: rgba(239, 70, 111, 0.14);
-  padding: 4px 8px;
+  /* padding: 4px 8px; */
   border-radius: 7px;
   color: #ef466f;
   font-size: 14px;
   /* width: 100%; */
   font-weight: 500;
+  width: 98px;
 }
 .paginate_button .page-link {
   padding: 3px;
@@ -1220,6 +1256,7 @@ tbody {
   color: #3074c6 !important;
   background-color: transparent !important;
   font-size: 13px;
+  width: 128px;
 }
 
 .has-search .form-control::placeholder {
@@ -1237,25 +1274,6 @@ tbody {
   text-align: center;
   pointer-events: none;
   color: #59739c;
-}
-
-.set-bg-table{
-  background-image: url(../img/elipse-bg.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: bottom;
-  /* position: relative; */
-}
-
-.bg__elipse {
-  /* background-image: url(../img/Ellipse_paragraph.png);
-  background-size: contain;
-  background-repeat: no-repeat; */
-  /* position: absolute;
-  bottom: -565px;
-  width: 2275.99px;
-  height: 969.47px;
-  left: -525.25px; */
 }
 
 @media (max-width: 770px) {
@@ -1396,10 +1414,7 @@ table.dataTable > thead .sorting_desc_disabled:after {
 .sub-number-table-exc {
   padding: 35px !important;
 }
-.select-padding-exc {
-  padding: 0px 14px !important;
-  margin-right: 10px;
-}
+
 .set-exc-hero-img {
   padding: 100px !important;
   padding-left: 0 !important;
@@ -1411,6 +1426,7 @@ table.dataTable > thead .sorting_desc_disabled:after {
 
 .main_member .container {
   padding-top: 134px;
+  position: relative;
 }
 
 .no-mt-xs {

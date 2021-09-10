@@ -56,6 +56,28 @@
     left: 20px;
   }
 
+  /* salary */
+  .salery__content {
+    background-color: white !important;
+    margin-top: -65px;
+    padding: 20px;
+    position: relative;
+    z-index: 5;
+    box-shadow: 0px 1px 40px rgba(0, 0, 0, 0.08);
+    height: auto;
+  }
+
+  .salery__content p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #535353;
+  }
+
+  .salery__content h4 {
+    font-size: 32px;
+    font-weight: 600;
+  }
+
   .img__left {
     display: none;
   }
@@ -70,6 +92,19 @@
 
   .who__we h2 {
     margin-top: 32px;
+    font-size: 32px;
+  }
+
+  .who__we p {
+    font-size: 16px;
+  }
+
+  .who__we a {
+    color: #1553a0;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 500;
   }
 
   /* .navbar-collapse .navbar_profile .dropdown-menu {
@@ -78,6 +113,8 @@
   .mb-xs-ex-select {
     justify-content: flex-start;
   }
+
+  /* hero contant */
 
   .hero {
     overflow: hidden;
@@ -88,14 +125,17 @@
   }
 
   .hero .hero_content h5 {
-    font-size: 25px !important;
-    line-height: 33px !important;
-    font-weight: 500 !important;
+    font-size: 32px !important;
+    line-height: 36px !important;
+    font-weight: 600 !important;
+    color: white;
   }
 
   .hero .hero_content p {
-    font-size: 14px !important;
-    font-weight: 300 !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: white;
+    padding-top: 16px;
   }
 
   .hero .hero_img {
@@ -148,17 +188,43 @@
   }
 }
 @media only screen and (min-width: 900px) {
+  /* hero contant */
+  .hero .hero_content h5 {
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 67.2px;
+    color: #fff;
+  }
+
+  .hero .hero_content p {
+    margin-top: 16px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+  }
   .salery__content {
     height: 151px;
     margin-top: -80px;
+    padding: 20px;
+    position: relative;
+    z-index: 5;
+    box-shadow: 0px 1px 40px rgba(0, 0, 0, 0.08);
+    background-color: white;
   }
   .who__we h2 {
     padding-left: 32px;
     margin-top: 120px;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 600;
   }
 
   .who__we p {
     padding-left: 32px;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
   }
 
   .who__we hr {
@@ -166,7 +232,12 @@
   }
 
   .who__we a {
+    color: #1553a0;
+    text-decoration: none;
     padding-left: 32px;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 500;
   }
 
   .who__we img.img-title {
@@ -185,6 +256,22 @@
     position: absolute;
     left: 0;
   }
+
+  /* salary */
+
+  .salery__content p {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #535353;
+    line-height: 25px;
+  }
+
+  .salery__content h4 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -199,29 +286,6 @@ body {
   background-color: #fafbfd;
 }
 
-/* salary */
-.salery__content {
-  background-color: white !important;
-  margin-top: -65px;
-  padding: 20px;
-  position: relative;
-  z-index: 5;
-  box-shadow: 0px 1px 40px rgba(0, 0, 0, 0.08);
-  height: auto;
-}
-
-.salery__content p {
-  margin-bottom: 0;
-  font-size: 16px;
-  font-weight: 400;
-  color: #535353;
-}
-
-.salery__content h4 {
-  font-weight: 600;
-  font-size: 40px;
-}
-
 .who__we {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -229,7 +293,7 @@ body {
   overflow: hidden;
 }
 
-.who__we .container{
+.who__we .container {
   position: relative;
 }
 
@@ -242,20 +306,6 @@ body {
   width: 2275.99px;
   height: 969.47px;
   left: -525.25px;
-}
-.who__we h2 {
-  font-size: 40px;
-  font-weight: 600;
-}
-
-.who__we p {
-  font-size: 16px;
-  font-weight: 400;
-}
-
-.who__we a {
-  color: #1553a0;
-  text-decoration: none;
 }
 
 .btn-green {
@@ -525,21 +575,6 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
-}
-
-.hero .hero_content h5 {
-  font-size: 56px;
-  font-weight: 600;
-  line-height: 67.2px;
-  color: #fff;
-}
-
-.hero .hero_content p {
-  margin-top: 16px;
-  color: #fff;
-  font-size: 16px;
-  line-height: 27px;
-  font-weight: 400;
 }
 
 .hero .hero_img {
