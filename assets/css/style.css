@@ -987,7 +987,26 @@ body {
   background-color: transparent;
   color: #1859a9 !important;
   font-size: 16px;
-  padding-top: 6px;
+  font-weight: 600;
+}
+.bottom .pagination .paginate_button a {
+  border: none;
+  background-color: transparent;
+  color: black !important;
+  font-size: 16px;
+  padding-top: 9px;
+}
+.paginate_button .left{
+  border: 1px solid #E6EBF5;
+  padding: 4px;
+  border-radius: 5px;
+  margin-top: -6px;
+}
+.paginate_button .right{
+  border: 1px solid #E6EBF5;
+  padding: 4px;
+  border-radius: 5px;
+  margin-top: -6px;
 }
 
 .w27-percent {
