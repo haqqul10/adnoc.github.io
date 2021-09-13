@@ -339,6 +339,9 @@
 
 body {
   background-color: #fafbfd;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 .bg__elipse {
@@ -996,14 +999,14 @@ body {
   font-size: 16px;
   padding-top: 9px;
 }
-.paginate_button .left{
-  border: 1px solid #E6EBF5;
+.paginate_button .left {
+  border: 1px solid #e6ebf5;
   padding: 4px;
   border-radius: 5px;
   margin-top: -6px;
 }
-.paginate_button .right{
-  border: 1px solid #E6EBF5;
+.paginate_button .right {
+  border: 1px solid #e6ebf5;
   padding: 4px;
   border-radius: 5px;
   margin-top: -6px;
@@ -1222,7 +1225,7 @@ tbody {
 .success-tabel-btn {
   background: rgba(1, 197, 186, 0.14);
   /* padding: 4px 22px; */
-  width: 98px;
+  width: 108px;
   border-radius: 7px;
   color: rgba(1, 197, 186, 1);
   font-size: 14px;
@@ -1249,7 +1252,7 @@ tbody {
   font-size: 14px;
   /* width: 100%; */
   font-weight: 500;
-  width: 98px;
+  width: 108px;
 }
 .paginate_button .page-link {
   padding: 3px;
