@@ -284,6 +284,9 @@
 
 body {
   background-color: #fafbfd;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 .who__we {
