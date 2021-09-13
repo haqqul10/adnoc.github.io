@@ -1,4 +1,4 @@
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 992px) {
   .navbar .navbar-collapse {
     background-color: white;
     position: absolute;
@@ -187,7 +187,7 @@
     color: #1f3456;
   }
 }
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 992px) {
   /* hero contant */
   .hero .hero_content h5 {
     font-size: 56px;
@@ -268,14 +268,19 @@
     font-size: 40px;
     line-height: 48px;
   }
-}
-
-@media only screen and (min-width: 992px) {
   .col-lg-7 {
     -ms-flex: 0 0 58.333333%;
     flex: 0 0 58.333333%;
     max-width: 56.333333%;
   }
+}
+
+@media only screen and (min-width: 992px) {
+  /* .col-lg-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 56.333333%;
+  } */
 }
 
 @media only screen and (min-width: 1080px) {
@@ -290,7 +295,7 @@
     width: 592px;
   }
 }
-@media only screen and (max-width: 1080px) and (min-width: 1040px) {
+@media only screen and (max-width: 1390px) and (min-width: 1024px) {
   .navbar .navbar-nav .nav-item a.nav-link {
     margin: 0 9px;
   }
