@@ -282,6 +282,21 @@
   }
 }
 
+@media only screen and (min-width: 1080px) {
+  .navbar .navbar-nav .nav-item a.nav-link {
+    position: relative;
+    margin: 0 21px;
+    color: #59739c;
+    font-weight: 500;
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1080px) and (min-width: 1040px ) {
+  .navbar .navbar-nav .nav-item a.nav-link {
+    margin: 0 9px;
+  }
+}
+
 body {
   background-color: #fafbfd;
   -webkit-font-smoothing: antialiased;
@@ -444,13 +459,13 @@ body {
   color: #1859a9 !important;
 }
 
-.navbar .navbar-nav .nav-item a.nav-link {
+/* .navbar .navbar-nav .nav-item a.nav-link {
   position: relative;
   margin: 0 21px;
   color: #59739c;
   font-weight: 500;
   font-size: 16px;
-}
+} */
 
 .navbar .navbar-nav .nav-item a.nav-link:hover {
   position: relative;
