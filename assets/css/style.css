@@ -120,7 +120,11 @@
   .select-padding-exc {
     padding: 0px 14px !important;
     margin-right: 10px;
-    font-size: 14px;
+    font-size: 16px;
+  }
+
+  .set-exc-hero-img {
+    padding-top: 70px;
   }
 
   .has-search .form-control {
@@ -130,7 +134,7 @@
     margin-bottom: 16px;
   }
   .has-search .form-control::placeholder {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .select-custom-arrow {
@@ -166,7 +170,7 @@
   }
 
   .hero .hero_content p {
-    font-size: 16px !important;
+    font-size: 18px !important;
     font-weight: 400 !important;
     color: white;
     padding-top: 16px;
@@ -302,6 +306,10 @@
     left: 0;
   }
 
+  .set-exc-hero-img {
+    padding-top: 100px !important;
+  }
+
   .hero .hero_content h5 {
     font-size: 56px;
     font-weight: 600;
@@ -338,7 +346,6 @@
 }
 
 @media only screen and (min-width: 1080px) {
-  
   .navbar .navbar-nav .nav-item a.nav-link {
     position: relative;
     margin: 0 21px;
@@ -347,7 +354,7 @@
     font-size: 16px;
   }
 }
-@media only screen and (max-width: 1080px) and (min-width: 1040px ) {
+@media only screen and (max-width: 1080px) and (min-width: 1040px) {
   .navbar .navbar-nav .nav-item a.nav-link {
     margin: 0 9px;
   }
@@ -470,6 +477,7 @@ body {
 .navbar {
   background-color: #ffff;
   height: 74px;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.08);
 }
 
 .navbar .container {
@@ -1400,7 +1408,7 @@ table.dataTable > thead .sorting_desc_disabled:after {
   }
 
   .mt-sett {
-    margin-top: 2rem !important;
+    /* margin-top: 2rem !important; */
   }
 
   .xs-change-align-text {
@@ -1448,7 +1456,7 @@ table.dataTable > thead .sorting_desc_disabled:after {
 }
 
 .set-exc-hero-img {
-  padding: 100px !important;
+  /* padding: 100px !important; */
   padding-left: 0 !important;
   position: relative;
 }
@@ -1475,9 +1483,9 @@ table.dataTable > thead .sorting_desc_disabled:after {
 
 @media (max-width: 767px) {
   .set-exc-hero-img {
-    padding-top: 3rem !important;
-    padding-left: 0.5rem !important;
-    padding-right: 35px !important;
+    /* padding-top: 3rem !important; */
+    /* padding-left: 16px !important;
+    padding-right: 16px !important; */
   }
 }
 /* ++ */
