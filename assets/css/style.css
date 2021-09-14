@@ -124,7 +124,7 @@
   }
 
   .set-exc-hero-img {
-    padding-top: 70px;
+    padding-top: 75px;
   }
 
   .has-search .form-control {
@@ -167,6 +167,7 @@
     line-height: 36px !important;
     font-weight: 600 !important;
     color: white;
+    margin-bottom: 0;
   }
 
   .hero .hero_content p {
